@@ -1,0 +1,79 @@
+2025-02-16 10:14:04,683 [INFO] Activator:176 - 
+
+
+2025-02-16 10:14:04,684 [INFO] Activator:177 - !SESSION log4j initialized
+2025-02-16 10:14:05,705 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-02-16 10:14:05,883 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.net.URISyntaxException: Illegal character in path at index 38: file:/home/brandon/Desktop/Electronics projects/Toyota_Gauge_Pod/LCD_Demo/.metadata/.log4j2.xml
+2025-02-16 10:14:05,883 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.fail(URI.java:2976)
+2025-02-16 10:14:05,883 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.checkChars(URI.java:3147)
+2025-02-16 10:14:05,883 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3229)
+2025-02-16 10:14:05,883 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parse(URI.java:3177)
+2025-02-16 10:14:05,883 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI.<init>(URI.java:623)
+2025-02-16 10:14:05,883 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URL.toURI(URL.java:1056)
+2025-02-16 10:14:05,883 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.core.CubeMxInstance.getInstance(CubeMxInstance.java:81)
+2025-02-16 10:14:05,884 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:25)
+2025-02-16 10:14:05,884 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+2025-02-16 10:14:05,884 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+2025-02-16 10:14:05,884 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:41)
+2025-02-16 10:14:05,884 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+2025-02-16 10:14:05,884 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+2025-02-16 10:14:05,884 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+2025-02-16 10:14:05,884 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
+2025-02-16 10:14:05,884 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-02-16 10:14:06,765 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:14:06 AM java.util.prefs.FileSystemPreferences$2 run
+2025-02-16 10:14:06,765 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not create system preferences directory. System preferences are unusable.
+2025-02-16 10:14:06,765 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:14:09,612 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-02-16 10:14:09,613 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-02-16 10:14:09,613 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-02-16 10:14:09,613 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-02-16 10:14:09,613 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-02-16 10:14:36,124 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:14:36 AM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2025-02-16 10:14:36,125 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 29050.
+2025-02-16 10:14:36,126 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:14:36,127 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:14:36 AM java.util.prefs.FileSystemPreferences syncWorld
+2025-02-16 10:14:36,127 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2025-02-16 10:14:36,127 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:15:06,118 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:15:06 AM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2025-02-16 10:15:06,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 0.
+2025-02-16 10:15:06,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:15:06,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:15:06 AM java.util.prefs.FileSystemPreferences syncWorld
+2025-02-16 10:15:06,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2025-02-16 10:15:06,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:15:36,118 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:15:36 AM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2025-02-16 10:15:36,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 0.
+2025-02-16 10:15:36,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:15:36,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:15:36 AM java.util.prefs.FileSystemPreferences syncWorld
+2025-02-16 10:15:36,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2025-02-16 10:15:36,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:16:06,118 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:16:06 AM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2025-02-16 10:16:06,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 0.
+2025-02-16 10:16:06,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:16:06,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:16:06 AM java.util.prefs.FileSystemPreferences syncWorld
+2025-02-16 10:16:06,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2025-02-16 10:16:06,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:16:36,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:16:36 AM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2025-02-16 10:16:36,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 29050.
+2025-02-16 10:16:36,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:16:36,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:16:36 AM java.util.prefs.FileSystemPreferences syncWorld
+2025-02-16 10:16:36,121 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2025-02-16 10:16:36,121 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:17:06,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:17:06 AM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2025-02-16 10:17:06,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 29050.
+2025-02-16 10:17:06,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:17:06,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:17:06 AM java.util.prefs.FileSystemPreferences syncWorld
+2025-02-16 10:17:06,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2025-02-16 10:17:06,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:17:36,118 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:17:36 AM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2025-02-16 10:17:36,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 29050.
+2025-02-16 10:17:36,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:17:36,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:17:36 AM java.util.prefs.FileSystemPreferences syncWorld
+2025-02-16 10:17:36,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2025-02-16 10:17:36,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:18:06,118 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:18:06 AM java.util.prefs.FileSystemPreferences checkLockFile0ErrorCode
+2025-02-16 10:18:06,118 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not lock System prefs. Unix error code 29050.
+2025-02-16 10:18:06,118 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:18:06,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 16, 2025 10:18:06 AM java.util.prefs.FileSystemPreferences syncWorld
+2025-02-16 10:18:06,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Couldn't flush system prefs: java.util.prefs.BackingStoreException: Couldn't get file lock.
+2025-02-16 10:18:06,119 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-02-16 10:18:26,060 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

@@ -1,0 +1,15 @@
+!SESSION 2025-02-16 10:13:48.951 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-16 10:14:04.622
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-16 10:14:04.622
+!MESSAGE Log4j2 initialized with config file /home/brandon/Desktop/Electronics projects/Toyota_Gauge_Pod/LCD_Demo/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-16 10:14:05.904
+!MESSAGE Started RMI Server, listening on port 41337
